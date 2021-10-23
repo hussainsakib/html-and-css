@@ -11,10 +11,13 @@
 <style>
     body{
         font-family: 'ballo bhai',cursive;
+        background-color: slategray;
+        
+
     }
     .bttn{
         font-family: 'ballo bhai',cursive;
-        margin-left: 600px;
+        margin-left: 170px;
         font-size: 15px;
         background-color: rgb(129, 102, 102);
         border-radius: 10px;
@@ -22,7 +25,7 @@
     }
     .heading{
         text-align: center;
-        margin-left: 500px;
+        margin-left: 330px;
     }
     .bttn a{
         color:black;
@@ -32,25 +35,67 @@
         color: black;
         background-color: orange;
     }
-    .container{
-            height: 544px; 
+     .container{
+            height: 50%; 
             width: 100%;
-            border: 2px solid black;
+    
             display: flex;
             flex-wrap: wrap;
             margin: 20px;
             padding: 2px;
             justify-content: center;
             align-items: stretch;
+            
+    }
+    
+    
+    .buy{
+        border-radius: 5px;
+        margin: 2px;
+        margin-left: 40%;
+        padding: 2px;
+        font-family: 'ballo bhai',cursive;
+        width: 100px;
+        height: 30px;
+
+        
+    }
+    div{
+        display: block;
+    }
+    .buy a{
+        text-decoration: none;
+        background-color: white;
+        color: black;
+    }
+    .buy:hover{
+        background-color: burlywood;
+        
+    }
+    .image img{
+        width: 50%;
+        border-radius: 5px;
+    
+        
     }
     .item{
-        width: 200px;
-        height: 200px;
-        background-color: tomato;
-        margin: 10px;
-        padding: 3px;
-        border: 2px solid green;
+        width: 25%;
+        display: inline-block;
+        border-radius: 2px;
+        margin: 2%;
+        box-shadow: 2px 2px 20px black;
+        background-color: slategrey;
     }
+    .title{
+        text-align: center;
+        padding: 10px;
+
+    }
+    .des{
+        text-align: center;
+        padding: 2px;
+    }
+    
 </style>
 <body>
     <h1>
@@ -65,8 +110,8 @@
         </div>
         <div class="container">
             <div class="item" id="item-1">
-                <div class="first-img">
-                    <img src="img/on.jpg" alt="ON protien">
+                <div class="image1">
+                    <img src="img/on.jpg" style="width: 50%;" alt="ON protien">
                  </div>
                  <div class="title">
                      <h1>ON whey protien</h1>
@@ -76,25 +121,86 @@
 
                      </p>
                  </div>
+                 <button class="buy">
+                     <a href="https://www.healthkart.com/sv/on-optimum-nutrition-gold-standard-100-whey-protein/SP-9558?navKey=VRNT-14662&itracker=w:menuLanding|undefined||;p:1|;e:14662|;"target=blank;>buy now</a>
+                 </button>
             </div>
             <div class="item" id="item-2">
-                <div class="second">
+                <div class="image">
                     <img src="img/mb.jpg" alt="muscleblaze">
                 </div>
                 <div class="title">
                     <h1>MB whey protien</h1>
                 </div>
                 <div class="des">
-                    <p></p>
+                    <p>
+                        Established in 2012, MuscleBlaze is an Indian Brand that deals in sports nutrition supplement.
+                    </p>
                 </div>
                 <button class="buy">
-                    <a href="https://www.healthkart.com/sv/on-optimum-nutrition-gold-standard-100-whey-protein/SP-9558?navKey=VRNT-14662&itracker=w:menuLanding|undefined||;p:1|;e:14662|;">buy now</a>
+                    <a href="https://www.healthkart.com/sv/muscleblaze-whey-protein/SP-8686?navKey=VRNT-72367&itracker=w:menuLanding|undefined||;p:2|;e:72367|;"target=blank;>buy now</a>
                 </button>
             </div>
-            <div class="item" id="item-3">Third Box</div>
-            <div class="item" id="item-4">Fourth Box</div>
-            <div class="item" id="item-5">Fifth Box</div>
-            <div class="item" id="item-6">Sixth Box</div> 
+            <div class="item" id="item-3">
+                <div class="image">
+                    <img src="img/my.jpg" alt="my protien">
+                </div>
+                <div class="title">
+                    <h1>my protien (whey)</h1>
+                </div>
+                <div class="des">
+                    <p>Buy the highest quality supplements in India from Europe's No.1 sports nutrition brand. </p>
+                </div>
+                <button class="buy">
+                    <a href="https://s1.thcdn.com/productimg/1600/1600/10530943-1504726884876366.jpg"target=blank;>buy now</a>
+                </button>
+            </div>
+            <div class="item" id="item-4">
+                <div class="image">
+                    <img src="img/gnc.jpg" alt="GNC protien">
+                </div>
+                <div class="title">
+                    <h1>GNC whey protien</h1>
+                </div>
+                <div class="des">
+                    <p>
+                        GNC - The Trusted Leader In Clinically Studied Proteins & Wellness Supplements.
+                  </p>
+                </div>
+                <button class="buy">
+                    <a href="https://www.healthkart.com/sv/gnc-pro-performance-100-whey-protein/SP-29910?navKey=VRNT-134649&itracker=w:search|undefined||searchedTerm-gnc|;p:4|;e:134649|;"target=blank;>buy now</a>
+                </button>
+            </div>
+            <div class="item" id="item-5">
+                <div class="image">
+                    <img src="img/iso.png" alt="iso protien">
+                </div>
+                <div class="title">
+                    <h1>iso sensation</h1>
+                </div>
+                <div class="des">
+                    <p>ISO Sensation® 93 includes a glutamine complex to help preserve muscle mass.</p>
+                </div>
+                <button class="buy">
+                    <a href="https://img6.hkrtcdn.com/1130/prd_112915_c_m.jpg"target=blank;>buy now</a>
+                </button>
+            </div>
+            <div class="item" id="item-6">
+                <div class="image">
+                    <img src="img/bGreen.jpg" alt="bGreen">
+                </div>
+                <div class="title">
+                    <h1>bGreen protien</h1>
+                </div>
+                <div class="des">
+                <p>
+The benefits of plant-based protein include increased intake of fibre.
+                    </p>
+                </div>
+                <button class="buy">
+                    <a href="https://img2.hkrtcdn.com/14849/prd_1484881-bGREEN-Plant-Protein-by-MuscleBlaze-Chocolate-2.2-lb_c_m.jpg"target=blank;>buy now</a>
+                </button>
+            </div> 
         </div>
         
     </h1>
