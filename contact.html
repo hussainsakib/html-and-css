@@ -1,114 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact us</title>
-    <style>
-.h2{
-    text-align: center;
-    color: brown;
-    text-shadow: cadetblue;
-}
-body{
-    background-color: cadetblue;
-    text-align: center;
-}
-.para{
-    font-weight: 700px;
-}
-.abc{
-    margin: 20px;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: black;
-    color:cadetblue;
-    width: 100px;
-    height: 20px;
-
-}
-.main{
-    
-    font-family: sans-serif;
-    font-size: 40px;
-
-}
-.bttn{
-    color: black;
-    background-color: floralwhite;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 1px solid black;
-    text-decoration: none;
-
-}
-    .bttn a:hover{
-        color: white;
-        background-color: black;
-        cursor: pointer;
-
-    }   
-   .bttn a{
-        text-decoration: none;
-        color: black;
-    } 
-    .abc:hover{
-        color: white;
-        background-color: black;
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact us</title>
+    </head>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background: url('img/body.jpg');
+            }
+ .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
         
-
+ }
+ 
+ .container h1 {
+        text-align: center;
+        color: white;
     }
-    .home{
-        width: 200px;
-        height: 50px;
-        margin: 20px;
-        padding: 2px;
+
+    .container button {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+    }
+    .container {
+        border: 2px solid white;
+
+        
+        border-radius: 28px;
+    }
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
         border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
 
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+    .contact{
+        text-align: center;
+        color: white;
+        margin: 20px;
+        padding: 20px;
+    }
+    .main-page{
+        text-align: center;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        margin: 20px;
+        margin-left: 700px;
+        padding: 2px;
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        font-family:'Baloo Bhai', cursive; ;
         
     }
-    .home a{
+    .main-page a{
         text-decoration: none;
         color: black;
+        font-size: 20px;
+       
     }
-    
+    .main-page:hover{
+        background-color: snow;
+        
+    }
         
     </style>
-</head>
+
 <body>
-    <div class="main">
-        <h2 class="h2">CONTACT</h2>
-        <p class="para"><b>want to join us.<b></p>
-            
-            <p class="para">email us at <br>
-                <strong>hsameer678@gmail.com</strong>
-                <br>
-                or call us at
-                <br>
-                <strong>+91-9382934192</strong>
-                <br>
-                Thank you.
+    <div class="contact">
+    <h1>REGISTER NOW</h1>
+    </div>
+    <div class="container">
 
-            </p>
+        <h1>Join the best gym now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
     </div>
-    <div class="form">
-        <h2 class="form1">Register here</h2>
-        <input class="abc" type="text" name="name" placeholder="Enter your name">
-        <input class="abc" type="number" name="" placeholder="Enter phone no">
-        <input class="abc" type="number" name="" placeholder="age">
-        <input class="abc" type="textarea" name="" placeholder="Describe">
-        <br>
-        <button class="bttn">
-            <a href="#">submit</a>
-        </button>
-    </div>
-    <div>
-        <button class="home">
-            <a href="index.html">go to home</a>
-        </button>
-    </div>
-
+    <button class="main-page">
+        <a href="index.html">home</a>
+    </button>
+    
 
 </body>
 </html>

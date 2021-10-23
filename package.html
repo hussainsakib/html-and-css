@@ -5,18 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PACKAGE</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'ballo bhai',cursive;
+    }
+    .bttn{
+        font-family: 'ballo bhai',cursive;
+        margin-left: 600px;
+        font-size: 15px;
+        background-color: rgb(129, 102, 102);
+        border-radius: 10px;
+        width: 100px;
+    }
+    .heading{
+        text-align: center;
+        margin-left: 500px;
+    }
+    .bttn a{
+        color:black;
+        text-decoration: none;
+    }
+    .bttn :hover{
+        color: black;
+        background-color: orange;
+    }
+    .container{
+            height: 544px; 
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            padding: 2px;
+            justify-content: center;
+            align-items: stretch;
+    }
+    .item{
+        width: 200px;
+        height: 200px;
+        background-color: tomato;
+        margin: 10px;
+        padding: 3px;
+        border: 2px solid green;
+    }
+</style>
 <body>
     <h1>
     
 
         <div class="heading">
-            <b>PACKAGES</b>
+            <b>SUPPLEMENTS</b>
         
             <button class="bttn">
                 <a href="index.html">HOME</a>
             </button>
+        </div>
+        <div class="container">
+            <div class="item" id="item-1">
+                <div class="first-img">
+                    <img src="img/on.jpg" alt="ON protien">
+                 </div>
+                 <div class="title">
+                     <h1>ON whey protien</h1>
+                 </div>
+                 <div class="des">
+                     <p>Shop Optimum Nutrition (ON) Gold Standard 100 Whey Protein Powder online and explor
+
+                     </p>
+                 </div>
+            </div>
+            <div class="item" id="item-2">
+                <div class="second">
+                    <img src="img/mb.jpg" alt="muscleblaze">
+                </div>
+                <div class="title">
+                    <h1>MB whey protien</h1>
+                </div>
+                <div class="des">
+                    <p></p>
+                </div>
+                <button class="buy">
+                    <a href="https://www.healthkart.com/sv/on-optimum-nutrition-gold-standard-100-whey-protein/SP-9558?navKey=VRNT-14662&itracker=w:menuLanding|undefined||;p:1|;e:14662|;">buy now</a>
+                </button>
+            </div>
+            <div class="item" id="item-3">Third Box</div>
+            <div class="item" id="item-4">Fourth Box</div>
+            <div class="item" id="item-5">Fifth Box</div>
+            <div class="item" id="item-6">Sixth Box</div> 
         </div>
         
     </h1>
