@@ -16,7 +16,7 @@ body
 color:white;
 margin: 0px;
 padding: 0px;
-background:url('img/man-2604149_1920.jpg');
+background-color: burlywood;
 }
 .left{
     display: inline-block;
@@ -35,7 +35,7 @@ background:url('img/man-2604149_1920.jpg');
 
 }
 .fit{
-    color:burlywood;
+    color: crimson;
     font-weight: 700;
     font-size: 25px;
     
@@ -48,9 +48,10 @@ display: block;
 width: 33%;
 
 
+
 }
 .right{
-    border: 2px solid blue;
+    text-decoration: none ;
     margin: 2px;
     display: inline-block;
     position: absolute;
@@ -62,16 +63,16 @@ width: 33%;
     font-family: sans-serif,'oswald';
     width: 100px;
     margin: 4px 14px;
-    padding: 2px;
+    padding: 10px;
     color:white;
-    border: 2px solid black;
-    border-radius: 5px;
     background-color: black;
+    border-radius: 5px;
     cursor: pointer;
+    
 
 }
 .btn:hover{
-    color:black;
+    color: black;
     text-decoration: underline;
     background-color:white;
 }
@@ -79,21 +80,30 @@ width: 33%;
     display: inline-block;
     
 }
-.navbar{
 
-}
 .navbar li a{
     text-decoration: none;
-    color: white;
+    color:black;
     margin: 18px;
 }
-.navbar li a:hover,.navbar li a.active{
+.navbar li a:hover{
     text-decoration: underline;
-    color: turquoise;
+    color: brown;
+}
+.navbar li a.active{
+    color:brown ;
+}
+.btn a{
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    margin: 2px;
+    
 }
 
 </style>
 <body>
+    <div class="main">
     <div class="left">
       <img src="img/gym-6560341_640.png" alt="">
       <div class="fit">sam fitness</div>
@@ -109,9 +119,17 @@ width: 33%;
     </ul>
     </div>
     <div class="right">
-    <button class="btn">call us</button>
-    <button class="btn">email</button>
+    <button class="btn">
+        <a href="contact.html">call us</a>
+    </button>
+    <button class="btn">
+        <a href="contact.html">Email</a>
+    </button>
     </div>
+</div>
+<div>
+    <span>my name</span>
+</div>
     
     
       
